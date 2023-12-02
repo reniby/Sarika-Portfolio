@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: 'Caudex';
+  src: url('/fonts/Caudex-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #d5e7d3;
+  font-family: 'Caudex', serif;
+}
+
+header {
+  color: #232724;
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.circle {
+  width: 2%;
+  height: 4%;
+  background-color: #bba9cb;
+  border-top-right-radius: 40%;
+  border-top-left-radius: 60%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 40%;
+  position: absolute;
+  margin-bottom: 1.8%;
+}
+
+.headerTitle {
+  margin-left: 17%;
+  font-size: 150%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
