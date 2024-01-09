@@ -29,9 +29,15 @@ header {
   margin-bottom: 1.8%;
 }
 
-.headerTitle {
-  margin-left: 17%;
+.name {
+  margin-left: 19%;
   font-size: 150%;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 a {
@@ -40,4 +46,40 @@ a {
   display: flex;
   align-items: center;
   width: 15%;
+}
+
+nav {
+  padding-right: 5%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #8c869c;
+}
+
+nav li.active a {
+  color: #8c869c; /* Change to the desired active color */
+}
+
+nav li:not(:last-child) a::after {
+  content: "|";
+  margin-left: 60%;
+  color: black;
 }

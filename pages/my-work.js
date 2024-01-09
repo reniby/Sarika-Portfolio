@@ -1,15 +1,14 @@
 import Head from 'next/head';
 
-export default function Home() {
+export default function Work() {
   return (
     <div>
       <Head>
-        <title>HOME | Sarika Doppalapudi</title>
+        <title>MY WORK | Sarika Doppalapudi</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
 
-      <h1>Home Page</h1>
+      <h1>Work Page</h1>
     </div>
   );
 }
