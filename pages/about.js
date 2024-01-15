@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div>
       <Head>
-        <title>ABOUT | Sarika Doppalapudi</title>
+        <title>ABOUT | Sarika Tatineni</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       

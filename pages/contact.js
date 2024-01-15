@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div>
       <Head>
-        <title>CONTACT | Sarika Doppalapudi</title>
+        <title>CONTACT | Sarika Tatineni</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

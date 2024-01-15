@@ -4,7 +4,7 @@ export default function Work() {
   return (
     <div>
       <Head>
-        <title>MY WORK | Sarika Doppalapudi</title>
+        <title>MY WORK | Sarika Tatineni</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

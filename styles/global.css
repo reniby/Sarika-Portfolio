@@ -26,11 +26,11 @@ header {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 40%;
   position: absolute;
-  margin-bottom: 1.8%;
+  margin-bottom: 2%;
 }
 
 .name {
-  margin-left: 19%;
+  margin-left: 25%;
   font-size: 150%;
 }
 

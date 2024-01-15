@@ -16,10 +16,10 @@ export default function Header() {
 
             <nav>
                 <ul>
-                    <li className={isActive('/') ? 'active' : ''}><Link href="/">Home</Link></li>
-                    <li className={isActive('/my-work') ? 'active' : ''}><Link href="/my-work">My Work</Link></li>
-                    <li className={isActive('/about') ? 'active' : ''}><Link href="/about">About</Link></li>
-                    <li className={isActive('/contact') ? 'active' : ''}><Link href="/contact">Contact</Link></li>
+                    <li className={isActive('/') ? 'active' : ''}><Link href="/">HOME</Link></li>
+                    <li className={isActive('/my-work') ? 'active' : ''}><Link href="/my-work">MY WORK</Link></li>
+                    <li className={isActive('/about') ? 'active' : ''}><Link href="/about">ABOUT</Link></li>
+                    <li className={isActive('/contact') ? 'active' : ''}><Link href="/contact">CONTACT</Link></li>
                 </ul>
             </nav>
         </div>

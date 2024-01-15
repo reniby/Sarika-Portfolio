@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>HOME | Sarika Doppalapudi</title>
+        <title>HOME | Sarika Tatineni</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
